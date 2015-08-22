@@ -6,12 +6,14 @@ Parent repository of the League of Legends Build Manager project for the [The Ri
 **TODO**
 
 ### Supported websites
-**TODO**
+- probuilds.net
+- mobafire.com
+- solomid.net
+- lolpro.com
 
 ### Team
-Leader - Renārs Vilnis
-Programming - Renārs Vilnis
-Design - Anete Jakobsone
+- Renārs Vilnis - idea author, programmer
+- Anete Jakobsone - design
 
 ### Technologies
 **TODO**
@@ -25,6 +27,6 @@ Project was structurized into several repositories as it provides a way to creat
 - [lol-build-manager-config](https://github.com/renarsvilnis/lol-build-manager-config) - node module that contains configuration for League of Legends Build Manager applications
 - [lol-build-manager-util](https://github.com/renarsvilnis/lol-build-manager-util) - node module that contains utility functions that are used accross League of Legends Build Manager applications
 - [lol-build-manager-chrome-extension](https://github.com/renarsvilnis/lol-build-manager-chrome-extension) - Google Chrome Extension that communicates with the native application and provides the user a fast way to import builds into the native application
-- [lol-build-manager-electron-app](https://github.com/renarsvilnis/lol-build-manager-electron-app) - Star of the show - Windows and OSX application that enables the user to import League of Legends champion guides from supported 3rd party services. **TODO: link to supported sites**
+- [lol-build-manager-electron-app](https://github.com/renarsvilnis/lol-build-manager-electron-app) - Star of the show - Windows and OSX application that enables the user to import League of Legends champion guides from [supported 3rd party services](https://github.com/renarsvilnis/lol-build-manager#supported-websites).
 
 
