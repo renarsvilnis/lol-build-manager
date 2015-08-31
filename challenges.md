@@ -1,6 +1,4 @@
 ### Challenges faced
-During the development of the project faced multiple issues that took alot of time from the contest period.
-
 ![Come at me bro!](http://beastmotivation.com/wp-content/uploads/2013/12/1450938_626904190681904_1232408617_n.jpg)
 
 #### Communicating beetween browser extension and native application
