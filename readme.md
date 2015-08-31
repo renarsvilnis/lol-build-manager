@@ -32,7 +32,10 @@ For now we have created a Chrome extension that checks tab if it is supported by
 Now the main show - the native app. It created using [Electron framework](https://github.com/atom/electron) which allows to create cross platform desktop applications using web technologies and [io.js](https://iojs.org/) (*node.js fork*). The goal is to add support for Windows and OSX, although for now we only support OSX, but the code logic already suport Windows enviroment.
 
 The native application allows its user to manage builds and guides, either externaly created or imported by the application. Even if the user hasn't installed any browser extension, he is able to manualy add the url within the application.
+
 To make the application work offline - with limited functionality (*no importing*), we cache item and champion information and images through League of Legends static data api, this makes for a quicker and better user expierence. On each application launch it checks if there is a new League of Legends game version and automatically does any update processes related to cached items to keep the user up-to-date.
+
+Please visit [challenges.md](challenges.md) for a detailed description about the problems face during the development and how did we solve them.
 
 ### Technology stack
 - Languages: JavaScript (ES6), [SASS](http://sass-lang.com/) + [BEM](https://en.bem.info/method/naming-convention/), [io.js](https://iojs.org/)
