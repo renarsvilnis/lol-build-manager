@@ -5,18 +5,21 @@ Parent repository of the League of Legends Build Manager project for the [The Ri
 **Category: Item Sets**
 
 ### Team
-1. Renārs Vilnis
-    - Role: Programming, Project leader
-    - Country: Latvia
-    - City: Bergi
-    - LOL Summoner: citrons
-    - LOL Region: eune
-2. Anete Jakobsone
-    - Role: Design
-    - Country: Latvia
-    - City: Bergi
-    - LOL Summoner: GorgeousCupcake
-    - LOL Region: eune
+```
+Renārs Vilnis
+    Role: Programming, Project leader
+    Country: Latvia
+    City: Bergi
+    LOL Summoner: citrons
+    LOL Region: eune
+    
+Anete Jakobsone
+    Role: Design
+    Country: Latvia
+    City: Bergi
+    LOL Summoner: GorgeousCupcake
+    LOL Region: eune
+```
 
 ### Idea
 Idea was to help players get better at League of Legends by helping them learn new champions using the capabilities of League of Legends item-sets. We all have a time when we lookup a build in mobafire, probuilds, solomid etc.., it is easy to remember the spell order, but when it comes to champion build we usually end up alt-tabbing during the game. Felt like it could be better and created an application that helps aid players get their desired champion builds into the game through scraping the website.
