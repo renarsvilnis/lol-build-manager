@@ -43,7 +43,7 @@ To make the application work offline - with limited functionality (*no importing
 - Build system: [babel](http://babeljs.io/), [gulp](http://gulpjs.com/), [browserify](http://browserify.org/), [bower](http://bower.io/)
 - Frameworks & libraries: [React.js](http://facebook.github.io/react/) + [Biff](https://github.com/FormidableLabs/biff) (*for flux implementation*), [Electron framework](https://github.com/atom/electron)
 
-### TODO
+### Current state
 As of the time applying for the contest the application isn't yet considered usable. Due to the tight time constrains, new technologies, testing out different things we where unable to get the product to a level we considerate it done. But we will continue working on it, about the latest version please check the github repository.
 
 ### Sites supported
@@ -55,7 +55,7 @@ As of the time applying for the contest the application isn't yet considered usa
 - lolpro.com/user-guides/
 - lolpro.com/guides/
 
-### Roadmap
+### TODO
 - [ ] Add windows support
 - [ ] Create additional browse extensions
 - [ ] Add more website support
