@@ -35,7 +35,7 @@ The native application allows its user to manage builds and guides, either exter
 
 To make the application work offline - with limited functionality (*no importing*), we cache item and champion information and images through League of Legends static data api, this makes for a quicker and better user expierence. On each application launch it checks if there is a new League of Legends game version and automatically does any update processes related to cached items to keep the user up-to-date.
 
-Please visit [challenges.md](challenges.md) for a detailed description about the problems face during the development and how did we solve them.
+**Please visit [challenges.md](challenges.md) for a detailed description about the problems face during the development and how did we solve them.**
 
 ### Technology stack
 - Languages: JavaScript (ES6), [SASS](http://sass-lang.com/) + [BEM](https://en.bem.info/method/naming-convention/), [io.js](https://iojs.org/)
