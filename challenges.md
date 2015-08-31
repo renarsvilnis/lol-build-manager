@@ -27,4 +27,9 @@ After examining the source code of some of the guide websites and crying for 20 
 
 First of all these websites are full of akward code that looks like barely stitched together to work. Some even used 2-3 UI templating engines on a single website. Yuck! Others included a mix of serverside and client side rendering and on top that, 99% of time, they don't have any references in the DOM attribute which would indicate anything about an item or champion. Forget about simply scraping an id matching with an data entry from the League of Legends api. So for that we needed to create a way to find id's from strings. To make things even harder, simple string compare wouldn't work, as there are items with enchantments that are a string combination of `item` + `enchantment`. So had to create a way that tries to find the parent element first and then the enchantment for it.
 
+MULTIPLE builds per GUIDE
+
 For the first website support we choose mobefire. As it seemed the like easiest of the bunch. For adding support for additional websites later on created scraping as a module system that calls a specific module depending on url that does all the scraping with it own logic and dependencies, and it simply returns an defined structured object which gets validated and returned as results. Thus making it easy to add new modules later on. So each of the modules privately deal with the scraping as needed. 
+
+
+#### Managing item-set files
